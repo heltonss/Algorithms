@@ -1,14 +1,13 @@
-(function() {
     /*
      *   Algorithim that organize numbers order crescent and descrecent
      */
 
     //This is the array that we going to organize
-    var list = [0, 2, 1, 5, 4, 3, 6, 35, 20, 7];
+    //var list = [0, 2, 1, 5, 4, 3, 6, 35, 20, 7];
 
     //This variable is for decide be we want in crescent order or descending
-    var decision = 1;
-    var order = (decision) ? 1 : 0;
+    //var decision = 1;
+    //var order = (decision) ? 1 : 0;
 
     //This function is that organize the our array
     function organized(order, list) {
@@ -42,7 +41,8 @@
                     }
                 }
             }
-            console.log(list);
+            return list;
+            //console.log(list);
         } else {
             var size = list.length;
             for (var i = 0; i < size; i++) {
@@ -60,14 +60,15 @@
                     }
                 }
             }
-            console.log(list);
+            return list;
+            //console.log(list);
         }
     }
-    organized(order, list);
-})();
+    //organized();
 
-/**
- * Of course it is possible to do this in several ways and I believe that all languages provide this * * * support so that it does not need to write as much, but the idea is just to understand the algorithm * * and provide a solution using basic programming logic concepts
- * 
- * 
- */
+
+    /**
+     * Of course it is possible to do this in several ways and I believe that all languages provide this * * * support so that it does not need to write as much, but the idea is just to understand the algorithm * * and provide a solution using basic programming logic concepts
+     * 
+     * 
+     */
